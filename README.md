@@ -1,5 +1,6 @@
 1. open ~/.bash_profile
-2. add following content to it:
+2. add following content to end of it:
+3. execute in shell console: source ~/.bash_profile, enjoy it.
 
 ```txt
 # mac-shell-profile
@@ -300,6 +301,5 @@ httpHeaders () { /usr/bin/curl -I -L $@ ; }             # httpHeaders:      Grab
 #   e.g.: mkfile 10m 10MB.dat
 #   e.g.: hdiutil create -size 10m 10MB.dmg
 #   the above create files that are almost all zeros - if random bytes are desired
-
-```
 #   then use: ~/Dev/Perl/randBytes 1048576 > 10MB.dat
+```
